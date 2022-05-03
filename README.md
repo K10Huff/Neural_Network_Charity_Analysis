@@ -14,5 +14,5 @@ The purpose of this analysis was to employ deep learning neural networks in orde
     - In order to try and increase model performance the number of hidden layers, the number of perceptron in each layer, the activation functions, output functions and additional dropped columns (STATUS) were all tested to find the combination that yielded the best results.
 # Summary: 
 ### Results Table <br>
-![Advanced Confusion Metrics DF](link) <br>
+![Advanced Confusion Metrics DF](https://github.com/K10Huff/Neural_Network_Charity_Analysis/blob/387680ef157b5b3d44f98e725f6eb6144a070f07/resources/acm_df.png) <br>
 The final model was not able to yield an accuracy of 0.75. Instead of using a binary classification model with a successful/ not successful target, an alternative would be to use a mulit-classifcation model. The target column could instead hold an evaluation score with values like “not successful, moderately successful, successful” to allow the model a third value to more accurately define the clusters of organizations. 
